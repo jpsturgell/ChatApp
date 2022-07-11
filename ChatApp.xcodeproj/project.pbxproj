@@ -21,6 +21,7 @@
 		81E1499A287B0A4200BE0F69 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E14999287B0A4200BE0F69 /* NewConversationViewController.swift */; };
 		81E1499C287B0A5C00BE0F69 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1499B287B0A5C00BE0F69 /* ProfileViewController.swift */; };
 		81E149A0287B686700BE0F69 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1499F287B686700BE0F69 /* Extensions.swift */; };
+		81E149A2287BD14500BE0F69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81E149A1287BD14500BE0F69 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		81E14999287B0A4200BE0F69 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		81E1499B287B0A5C00BE0F69 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		81E1499F287B686700BE0F69 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		81E149A1287BD14500BE0F69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B25AFD0ABAFC008A9F8E0CF1 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		B4E3838C33D35BB9A6E0ADBA /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +64,6 @@
 				B4E3838C33D35BB9A6E0ADBA /* Pods-ChatApp.debug.xcconfig */,
 				B25AFD0ABAFC008A9F8E0CF1 /* Pods-ChatApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -101,6 +102,7 @@
 				81E1498C287B087200BE0F69 /* Models */,
 				81E1498B287B086100BE0F69 /* Controllers */,
 				81E14985287B06CB00BE0F69 /* Info.plist */,
+				81E149A1287BD14500BE0F69 /* GoogleService-Info.plist */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -230,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E14984287B06CB00BE0F69 /* LaunchScreen.storyboard in Resources */,
+				81E149A2287BD14500BE0F69 /* GoogleService-Info.plist in Resources */,
 				81E14981287B06CB00BE0F69 /* Assets.xcassets in Resources */,
 				81E1497F287B06C700BE0F69 /* Main.storyboard in Resources */,
 			);
